@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Contact extends Component {
 
     render() {
 
         return(
-            <div className="Container-fluid">
-                <h1>hello</h1>
-                        </div>
-
+<div>
+                <h1>contact</h1>
+                
+            
+</div>
         );
     }
 }

@@ -4,30 +4,21 @@ import { Magnifier, SideBySideMagnifier, MagnifierContainer, MagnifierPreview, M
 
 class Home extends Component {
 
-    render() {
+  render() {
 
-        return (
-            <div className="Container-fluid">
-                {/* <MagnifierContainer>
-  <div className="example-class">
-    <MagnifierPreview imageSrc="./Images/background.jpg" />
-  </div>
-    <MagnifierZoom style={{ height: "400px" }} imageSrc="./Images/background.jpg"/>
-</MagnifierContainer> */}
-{/*             
-                     <img style={{ 'height': "800px" }}
-                        className="d-block w-50"
-                        src={'./Images/background.jpg'} /> */}
-                        
-<GlassMagnifier
-  imageSrc="./Images/background.jpg"
-  imageAlt="Example"
-/>
-                
-            </div>  
+    return (
+      <div className="Container-fluid">
+        <img style={{ 'height': "700px" }}
+          className="d-block w-100 "
+          src={'./Images/cover.jpg'} />
+          <div class="centered">
+              <h1>Mausam</h1>
+              <p className="lead" >We Check The WEATHER Wherever You Are</p>
+          </div>
+      </div>
 
-        );
-    }
+    );
+  }
 }
 
 export default Home;
