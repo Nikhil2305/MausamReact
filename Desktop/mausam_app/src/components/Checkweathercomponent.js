@@ -5,9 +5,9 @@ class Checkweather extends Component {
     render() {
 
         return(
-            <div className="Container-fluid">
-                <h1>hello</h1>
-                        </div>
+            
+                <h1>checkweather</h1>
+                    
 
         );
     }

@@ -37,23 +37,62 @@
   }
 }
 .header {
-  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 12vh;
   background-color: black;
-  
+  font-family: sans-serif;
 }
+
 .footer {
-  height: 17vh;
+  height: 30vh;
   background-color: black;
   text-align: center;
+  color: floralwhite;
 }
 .text {
-  float: right;
-  color: white;
+  
+  color: #FFD400;
+font-weight: bold;
 }
 .logo {
-  height: 6vh;
+  height: 9vh;
+  
+
 }
 textbackground {
   color: white;
+  text-align: center;
+}
+.Container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+ .centered {
+  position: absolute;
+  bottom: 10;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 30px; 
+}
+.centered h1{
+  font-family:Bradley Hand, cursive ;
+  font-size: 80px;
+
+}
+.textimage {
+  color: #FFD400;
+}
+.aboutitem {
+  color:white;
   text-align: center;
 }
